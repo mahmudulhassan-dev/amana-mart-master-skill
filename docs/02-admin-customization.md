@@ -10,6 +10,13 @@ Skip to content
 
 View Categories
 
+Table of Contents
+
+  * Landing Page Customization
+  * Translate admin panel 
+
+
+
 Setup Essentials
 
 Requirements for 6amMart Installation
@@ -49,61 +56,23 @@ Don’t Show It Again
 
 GOT IT
 
-After downloading the code from CodeCanyon, upload the Admin New Install.zip in your directory and extract the zip file. 6amMart can be installed on your main domain or subdomain: For Example, yourdomain.com or subdomain.yourdomain.com
+## **Landing Page Customization** #
+
+The default landing page serves as the initial point of entry for visitors. Through the admin panel, users have the ability to customize this landing page to better suit their needs. One customization option involves specifying a redirection link. This enables users to direct visitors away from the default landing page to another designated webpage or destination, effectively altering the path of navigation. Alternatively, users can upload custom code scripts, which then dictate the rendering and functionality of the landing page. This allows for a more comprehensive transformation of the landing page, encompassing visual design elements, interactive features, and other bespoke functionalities.
+
+## **Translate admin panel****** #
+
+For translating your admin and vendor panel go to this file: resources/lang/en/messages.php and change all the value of each key( ‘key’=>’:variable value’) . Please don’t change any key or variable. A variable is word which starts with a “:”, it can be placed after the value or inside a value like ‘config\your\account’=>’Config your :method account’, here :method is a variable and config\your\account is a key. You can change the position of variable inside a value but you can’t remove it.
 
 **INFO**
 
-As the admin panel and web app are developed using two different technologies, If you want the web app in your main domain, then you need to install the admin panel in a subdomain. For example, if you want the web app(website) in yourdomain.com, then you can install the admin panel in admin.yourdomain.com or any subdomain. Later in the web app part you will know how you need to install the web app on your server.
+Please note: “:” after a word is not a variable like: ‘(Ex: Test Label)’ => ‘(Ex: Test Label)’ here “Ex:” not a variable 
 
-**WARNING**
+**Form the Admin panel**
 
-Don’t install the admin panel or web app in a sub directory (like: yourdomain.com/folder)
+* * *
 
-6amMart requires an SSL certificate to be installed on your domain to work with all the services. A free SSL certificate can be easily installed on your domain using [sslforfree.com](http://sslforfree.com/)
-
-Let’s start the installation-
-
-  * First, hit your site URL, and it will automatically take you to the installation. Click ‘Get Started’ to start.
-
-
-
-  * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
-
-
-
-  * Step 2: Provide your CodeCanyon username and purchase code and Continue.
-
-
-
-If you find the following page, you must activate your domain. Now fill up the information and proceed
-
-  * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
-
-
-
-  * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
-
-
-
-  * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
-
-
-
-  * Step 5: Now fill up the information and click Complete Installation
-
-
-
-Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
-
-  * Default Admin Login URL is Your-domain/**login/admin**
-
-
-
-And Default Restaurant Panel Login URL is Your-domain/**login/store**
-
-**TIP**
-
-Recommended tutorial is below 👇
+**Form the Message.php file**
 
 #### Share This Article :
 
@@ -114,7 +83,7 @@ Recommended tutorial is below 👇
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+[ Mandatory Setup]()[3rd Party Setup ]()
 
 Manage Consent
 

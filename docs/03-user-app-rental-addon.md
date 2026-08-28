@@ -10,6 +10,13 @@ Skip to content
 
 View Categories
 
+Table of Contents
+
+  * Setting Up the Rental Module in the User App
+  * Version Update – Rental Module 
+
+
+
 Setup Essentials
 
 Requirements for 6amMart Installation
@@ -49,61 +56,78 @@ Don’t Show It Again
 
 GOT IT
 
-After downloading the code from CodeCanyon, upload the Admin New Install.zip in your directory and extract the zip file. 6amMart can be installed on your main domain or subdomain: For Example, yourdomain.com or subdomain.yourdomain.com
+**Note**
 
-**INFO**
+For Rental Module , You need to use minimum code version 3.0
 
-As the admin panel and web app are developed using two different technologies, If you want the web app in your main domain, then you need to install the admin panel in a subdomain. For example, if you want the web app(website) in yourdomain.com, then you can install the admin panel in admin.yourdomain.com or any subdomain. Later in the web app part you will know how you need to install the web app on your server.
+## **Setting Up the Rental Module in the User App** #
 
-**WARNING**
+**1\. Download the Required Files:**
 
-Don’t install the admin panel or web app in a sub directory (like: yourdomain.com/folder)
-
-6amMart requires an SSL certificate to be installed on your domain to work with all the services. A free SSL certificate can be easily installed on your domain using [sslforfree.com](http://sslforfree.com/)
-
-Let’s start the installation-
-
-  * First, hit your site URL, and it will automatically take you to the installation. Click ‘Get Started’ to start.
+  * Get the User app (without the rental module) from CodeCanyon and open it in your IDE.
+  * Download the rental module code from CodeCanyon.
 
 
 
-  * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
+**2\. Remove the Existing Taxi Module:**
+
+  * Navigate to: lib/features/taxi_module
+  * Delete the taxi_module folder (it contains no code).
 
 
 
-  * Step 2: Provide your CodeCanyon username and purchase code and Continue.
+**3\. Run the following commands in your terminal:**
+    
+    
+     flutter pub cache clean
+    
+    flutter clean
+    
+    
+    flutter pub cache clean
+    
+    flutter clean
+
+**4\. Add the Rental Module:**
+
+  * Extract the downloaded rental module ZIP file.
+  * Place the extracted rental_module folder inside the features directory.
 
 
 
-If you find the following page, you must activate your domain. Now fill up the information and proceed
+**5\. Then Run the following commands in your terminal:**
+    
+    
+     flutter pub get
+    
+    
+    flutter pub get
 
-  * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
+**6\. Your rental module is now set up and ready to use!**
+
+## **Version Update – Rental Module** #
+
+**Note**
+
+This update applies only to existing users of the Rental Module.
+
+If you want to upgrade your **Rental Module** to the **latest version** , follow one of the two methods below:
+
+  1. **Update by Changed Files**
+     * Locate the update folder named like:  
+**App changes from V1.0 to V1.1****  
+**
+     * Inside this folder, you will find files**organized directory-wise**.  
+
+     * Simply **replace the old files** in your project with the corresponding updated files in those directories
+  2. **Full Module Replacement**
+     * **If you prefer, you can replace the entire Rental Module code with the latest version provided.**
 
 
 
-  * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
+**Warning**
 
-
-
-  * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
-
-
-
-  * Step 5: Now fill up the information and click Complete Installation
-
-
-
-Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
-
-  * Default Admin Login URL is Your-domain/**login/admin**
-
-
-
-And Default Restaurant Panel Login URL is Your-domain/**login/store**
-
-**TIP**
-
-Recommended tutorial is below 👇
+You can not switch from very older version to newer version. You can switch from previous version to new version
 
 #### Share This Article :
 
@@ -114,7 +138,7 @@ Recommended tutorial is below 👇
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+[ System Update]()[Prerequisites ]()
 
 Manage Consent
 

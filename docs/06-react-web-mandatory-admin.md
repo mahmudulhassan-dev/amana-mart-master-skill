@@ -10,6 +10,14 @@ Skip to content
 
 View Categories
 
+Table of Contents
+
+  * Activate React Web App in the Admin Panel​
+  * Active from your React project​
+  * Landing Page Settings in the Admin Panel​
+
+
+
 Setup Essentials
 
 Requirements for 6amMart Installation
@@ -49,61 +57,64 @@ Don’t Show It Again
 
 GOT IT
 
-After downloading the code from CodeCanyon, upload the Admin New Install.zip in your directory and extract the zip file. 6amMart can be installed on your main domain or subdomain: For Example, yourdomain.com or subdomain.yourdomain.com
+**INFO**
+
+This item does not include any admin panel, as we mentioned before in prerequisites section you need to have pre-installed the 6amMart Admin Panel on your server to use this React Web App. If you haven’t purchased the 6amMart main item yet, click here to purchase and install the admin panel first on your server first.
+
+## **Activate React Web App in the Admin Panel**[**​**](https://docs.6amtech.com/docs-six-am-mart/react-web-app/admin-panel-mandatory-setup#activate-react-web-app-in-the-admin-panel) #
+
+The active react web requires addon activation in order to function properly.
+
+  * Navigate to the **Addon Activation** section in the Admin Panel.
+  * Active react web using toggle button.
+  * Enter your **CodeCanyon username**.
+  * Enter the **purchase code** of your react web.
+  * Save the changes to complete the activation process.
+
+
+
+## ****Active from your React project**[**​**](https://docs.6amtech.com/docs-six-am-mart/react-web-app/admin-panel-mandatory-setup#active-from-your-react-project)** #
 
 **INFO**
 
-As the admin panel and web app are developed using two different technologies, If you want the web app in your main domain, then you need to install the admin panel in a subdomain. For example, if you want the web app(website) in yourdomain.com, then you can install the admin panel in admin.yourdomain.com or any subdomain. Later in the web app part you will know how you need to install the web app on your server.
+Download the react web app source code first from CodeCanyon.
+
+If you don’t know how to download the source code follow the following steps –
+
+  * Log into your Envato Market account.
+  * Hover the mouse over your username at the top of the screen.
+  * Click Downloads from the drop-down menu.
+  * Click All files and documentation.
+
+
+
+Now unzip the zip files and go to 6amMart React folder and open the project in your IDE ([Vs code](https://code.visualstudio.com/download) or [Webstorm](https://www.jetbrains.com/help/webstorm/installation-guide.html)).
+
+  * Go to project’s .env.development and .env.production files
+  * You have to change the following variables like below-
+
+
+    
+    
+    NEXT_PUBLIC_BASE_URL=”YOUR_BASE_URL”
+    
+    
+    NEXT_PUBLIC_BASE_URL=”YOUR_BASE_URL”
 
 **WARNING**
 
-Don’t install the admin panel or web app in a sub directory (like: yourdomain.com/folder)
+Do not add Slash (“/”) at the end of the URL.
 
-6amMart requires an SSL certificate to be installed on your domain to work with all the services. A free SSL certificate can be easily installed on your domain using [sslforfree.com](http://sslforfree.com/)
+## **Landing Page Settings in the Admin Panel**[**​**](https://docs.6amtech.com/docs-six-am-mart/react-web-app/admin-panel-mandatory-setup#landing-page-settings-in-the-admin-panel) #
 
-Let’s start the installation-
+To set up the landing page, follow the steps below-
 
-  * First, hit your site URL, and it will automatically take you to the installation. Click ‘Get Started’ to start.
-
-
-
-  * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
-
+  * Go to the Settings from your 6amMart Admin Panel.
+  * Find out the Pages & Social Media.
+  * Go to the React Landing Page from the sub menu bar.
+  * Setup all your preferred information. Such as Top Header Title, Sub Title, About Section Title, Footer Article and many more things.
 
 
-  * Step 2: Provide your CodeCanyon username and purchase code and Continue.
-
-
-
-If you find the following page, you must activate your domain. Now fill up the information and proceed
-
-  * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
-
-
-
-  * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
-
-
-
-  * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
-
-
-
-  * Step 5: Now fill up the information and click Complete Installation
-
-
-
-Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
-
-  * Default Admin Login URL is Your-domain/**login/admin**
-
-
-
-And Default Restaurant Panel Login URL is Your-domain/**login/store**
-
-**TIP**
-
-Recommended tutorial is below 👇
 
 #### Share This Article :
 
@@ -114,7 +125,7 @@ Recommended tutorial is below 👇
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+[ Environment Setup]()[Mandatory Setup (Web) ]()
 
 Manage Consent
 

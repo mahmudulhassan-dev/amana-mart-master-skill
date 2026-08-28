@@ -49,61 +49,47 @@ Don’t Show It Again
 
 GOT IT
 
-After downloading the code from CodeCanyon, upload the Admin New Install.zip in your directory and extract the zip file. 6amMart can be installed on your main domain or subdomain: For Example, yourdomain.com or subdomain.yourdomain.com
+CORS Issue [–]()
 
-**INFO**
+If you encounter a CORS issue on your server, it might hinder the proper functioning of your application. To resolve this, watch this video:
 
-As the admin panel and web app are developed using two different technologies, If you want the web app in your main domain, then you need to install the admin panel in a subdomain. For example, if you want the web app(website) in yourdomain.com, then you can install the admin panel in admin.yourdomain.com or any subdomain. Later in the web app part you will know how you need to install the web app on your server.
+App is not running (Flutter SDK and App Version Mismatch) [–]()
 
-**WARNING**
+In case your Flutter application is not functional, it could indicate an inconsistency between the application version and the Flutter SDK version. To resolve this, execute the following steps:
 
-Don’t install the admin panel or web app in a sub directory (like: yourdomain.com/folder)
-
-6amMart requires an SSL certificate to be installed on your domain to work with all the services. A free SSL certificate can be easily installed on your domain using [sslforfree.com](http://sslforfree.com/)
-
-Let’s start the installation-
-
-  * First, hit your site URL, and it will automatically take you to the installation. Click ‘Get Started’ to start.
+  * Use the “flutter doctor” command in the terminal to check the Flutter SDK version of your project and identify any related errors.
+  * The App Version and Flutter SDK version specified in Codecanyon must match the versions installed into your project for seamless compatibility.
 
 
 
-  * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
+Generate Map Key Restriction Problem [–]()
+
+If you encounter issues with map key restrictions, follow these steps to resolve them:
+
+  * Generate separate Map API keys for the Client and Server if you intend to apply restrictions. Otherwise, it won’t work. 
+  * Alternatively, if you generate a public Google Maps API key, you can use the same key for both the Client and Server.
 
 
 
-  * Step 2: Provide your CodeCanyon username and purchase code and Continue.
+Feature is not working (Admin Panel and Mobile App) [–]()
 
+Ensure that the versions of the Admin Panel and Mobile App match to prevent errors from occurring.
 
+Receiving notifications for bookings and order placements, but not for the admin panel information. [–]()
 
-If you find the following page, you must activate your domain. Now fill up the information and proceed
+If the user is not receiving notifications from the admin panel, yet is still receiving notifications for order placements, it is suggested not to modify the value of: 
 
-  * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
+`lib/utils/ appconstants.dart -> topic`
 
+Web taking too long to load [–]()
 
+The initial loading of data on the web may take longer due to the Flutter framework, but subsequent loading times will be much quicker once the data is cached.
 
-  * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
+For optimal performance, consider using:
 
+– A fast and reliable server
 
-
-  * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
-
-
-
-  * Step 5: Now fill up the information and click Complete Installation
-
-
-
-Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
-
-  * Default Admin Login URL is Your-domain/**login/admin**
-
-
-
-And Default Restaurant Panel Login URL is Your-domain/**login/store**
-
-**TIP**
-
-Recommended tutorial is below 👇
+– A stable and fast internet connection
 
 #### Share This Article :
 
@@ -114,7 +100,7 @@ Recommended tutorial is below 👇
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+[ TYPICAL ISSUES]()[TYPICAL ISSUES ]()
 
 Manage Consent
 

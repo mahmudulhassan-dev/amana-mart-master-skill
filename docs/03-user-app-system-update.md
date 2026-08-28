@@ -10,6 +10,12 @@ Skip to content
 
 View Categories
 
+Table of Contents
+
+  * Safely Live system update
+
+
+
 Setup Essentials
 
 Requirements for 6amMart Installation
@@ -49,61 +55,31 @@ Don’t Show It Again
 
 GOT IT
 
-After downloading the code from CodeCanyon, upload the Admin New Install.zip in your directory and extract the zip file. 6amMart can be installed on your main domain or subdomain: For Example, yourdomain.com or subdomain.yourdomain.com
+## **Safely Live system update** #
 
-**INFO**
+Suppose your system’s current version is V 2.0, now you want to update your system to V2.1 and also want to force users to update the system then you can follow this to update your system safely. 
 
-As the admin panel and web app are developed using two different technologies, If you want the web app in your main domain, then you need to install the admin panel in a subdomain. For example, if you want the web app(website) in yourdomain.com, then you can install the admin panel in admin.yourdomain.com or any subdomain. Later in the web app part you will know how you need to install the web app on your server.
-
-**WARNING**
-
-Don’t install the admin panel or web app in a sub directory (like: yourdomain.com/folder)
-
-6amMart requires an SSL certificate to be installed on your domain to work with all the services. A free SSL certificate can be easily installed on your domain using [sslforfree.com](http://sslforfree.com/)
-
-Let’s start the installation-
-
-  * First, hit your site URL, and it will automatically take you to the installation. Click ‘Get Started’ to start.
+  * Generate your appbundle for PlayStore and ipa for AppStore using your update version’s code, in this case V 2.1. And must add this version on your project’s 
 
 
 
-  * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
+**lib/util/app_constants.dart** file-
+    
+    
+    static const double appVersion = 2.1';  
+
+It’ll maintain your app force update.
+
+  * Update your app on both AppStore and PlayStore.
+
+
+  * After successfully updating on AppStore and PlayStore – go to your**Admin Panel > Configurations > Third Party > App Settings** and set app minimum version, in this case V 2.1.
 
 
 
-  * Step 2: Provide your CodeCanyon username and purchase code and Continue.
+**Note**
 
-
-
-If you find the following page, you must activate your domain. Now fill up the information and proceed
-
-  * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
-
-
-
-  * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
-
-
-
-  * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
-
-
-
-  * Step 5: Now fill up the information and click Complete Installation
-
-
-
-Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
-
-  * Default Admin Login URL is Your-domain/**login/admin**
-
-
-
-And Default Restaurant Panel Login URL is Your-domain/**login/store**
-
-**TIP**
-
-Recommended tutorial is below 👇
+Only friction or double value will be added in the app version. So if your release version is 2.1.1, then add app version 2.2. Which is maintained for force update. In admin, there must be added the app version 2.2 .
 
 #### Share This Article :
 
@@ -114,7 +90,7 @@ Recommended tutorial is below 👇
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+[ 3rd Party Setup]()[Rental Module addon ]()
 
 Manage Consent
 

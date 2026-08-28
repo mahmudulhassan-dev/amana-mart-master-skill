@@ -49,61 +49,39 @@ Don’t Show It Again
 
 GOT IT
 
-After downloading the code from CodeCanyon, upload the Admin New Install.zip in your directory and extract the zip file. 6amMart can be installed on your main domain or subdomain: For Example, yourdomain.com or subdomain.yourdomain.com
+6amMart is a complete multivendor and multipurpose eCommerce solution designed for operating various businesses simultaneously like Food, Groceries, eCommerce, Parcel, Pharmacy deliveries, etc from one platform. Developed for convenience, 6amMart offers a seamless experience through mobile apps and web interfaces.
 
-**INFO**
+It is built using Laravel (v12) and Flutter framework to offer a robust and scalable solution.
 
-As the admin panel and web app are developed using two different technologies, If you want the web app in your main domain, then you need to install the admin panel in a subdomain. For example, if you want the web app(website) in yourdomain.com, then you can install the admin panel in admin.yourdomain.com or any subdomain. Later in the web app part you will know how you need to install the web app on your server.
+Laravel is a PHP framework known for its expressive and elegant syntax. It is robust and easy to understand, providing a solid foundation so you can focus on creating features without worrying about the underlying details.
 
-**WARNING**
+Flutter, developed by Google, is an open-source framework for building mobile applications. It is used to create apps for both Android and iOS, making it a primary tool for cross-platform development.
 
-Don’t install the admin panel or web app in a sub directory (like: yourdomain.com/folder)
+6amMart consists of the following components – 
 
-6amMart requires an SSL certificate to be installed on your domain to work with all the services. A free SSL certificate can be easily installed on your domain using [sslforfree.com](http://sslforfree.com/)
+3 Mobile Applications: 
 
-Let’s start the installation-
+**Customer Application:** Developed using Flutter, available for Android, iOS, and web.
 
-  * First, hit your site URL, and it will automatically take you to the installation. Click ‘Get Started’ to start.
+**Delivery Boy Application:** Developed using Flutter for Android and iOS. 
 
+**Store Application:** Developed using Flutter, available for Android and iOS.
 
+2 Web Panels:
 
-  * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
+**Super Admin Panel:** Built with Laravel, allowing role-based access management.
 
+**Store Panel:** Built with Laravel, allowing store owners to manage roles and access.
 
+3 Websites:
 
-  * Step 2: Provide your CodeCanyon username and purchase code and Continue.
+**Web Application:** Built with NextJS. 
 
+**Web Application:** Built with Flutter. 
 
+**Landing Page:** Developed using Laravel Blade.
 
-If you find the following page, you must activate your domain. Now fill up the information and proceed
-
-  * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
-
-
-
-  * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
-
-
-
-  * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
-
-
-
-  * Step 5: Now fill up the information and click Complete Installation
-
-
-
-Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
-
-  * Default Admin Login URL is Your-domain/**login/admin**
-
-
-
-And Default Restaurant Panel Login URL is Your-domain/**login/store**
-
-**TIP**
-
-Recommended tutorial is below 👇
+Each component is designed to provide seamless functionality and integration, ensuring a smooth experience for all users involved in the 6amMart ecosystem.
 
 #### Share This Article :
 
@@ -114,7 +92,7 @@ Recommended tutorial is below 👇
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+[ Overview]()[Overview ]()
 
 Manage Consent
 

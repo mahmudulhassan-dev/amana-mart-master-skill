@@ -10,6 +10,13 @@ Skip to content
 
 View Categories
 
+Table of Contents
+
+  * Update
+  * Update after Customisation
+
+
+
 Setup Essentials
 
 Requirements for 6amMart Installation
@@ -49,61 +56,35 @@ Don’t Show It Again
 
 GOT IT
 
-After downloading the code from CodeCanyon, upload the Admin New Install.zip in your directory and extract the zip file. 6amMart can be installed on your main domain or subdomain: For Example, yourdomain.com or subdomain.yourdomain.com
+## **Update** #
 
-**INFO**
+For update the admin panel just upload your update zip file in your project root folder and extract it. Hit the domain or refresh. There will be a Update button, just click, and you are done.
 
-As the admin panel and web app are developed using two different technologies, If you want the web app in your main domain, then you need to install the admin panel in a subdomain. For example, if you want the web app(website) in yourdomain.com, then you can install the admin panel in admin.yourdomain.com or any subdomain. Later in the web app part you will know how you need to install the web app on your server.
+## **Update after Customisation** #
 
-**WARNING**
+If you customized something on the code and want to update to our latest version follow any option given below:
 
-Don’t install the admin panel or web app in a sub directory (like: yourdomain.com/folder)
+**FOLLOW ANY ONE**
 
-6amMart requires an SSL certificate to be installed on your domain to work with all the services. A free SSL certificate can be easily installed on your domain using [sslforfree.com](http://sslforfree.com/)
-
-Let’s start the installation-
-
-  * First, hit your site URL, and it will automatically take you to the installation. Click ‘Get Started’ to start.
+  * **Way 1**
+  * **Way 2**
+  * **Way 3**
 
 
 
-  * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
+First, push your code on a git branch. Then download our project code from codecanyon and push it to another branch. And at last marge both branch, and it is possible to get conflict on branch. Resolve it carefully.
 
+We provided changed files directory-wise with our every update. You have to replace them with your code. Remember that it may conflict with your customization. If you customize something on a file and we changed something on the same file then merge those codes carefully.
 
+Download updated files from codecanyon and do your customization again.
 
-  * Step 2: Provide your CodeCanyon username and purchase code and Continue.
+**Note**
 
+After updating your system, please go to the Admin Panel → Add-on Activation section and resubmit your purchase information with valid credentials to ensure everything works properly.
 
+**Warning**
 
-If you find the following page, you must activate your domain. Now fill up the information and proceed
-
-  * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
-
-
-
-  * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
-
-
-
-  * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
-
-
-
-  * Step 5: Now fill up the information and click Complete Installation
-
-
-
-Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
-
-  * Default Admin Login URL is Your-domain/**login/admin**
-
-
-
-And Default Restaurant Panel Login URL is Your-domain/**login/store**
-
-**TIP**
-
-Recommended tutorial is below 👇
+You have to be a developer in that case. If something goes wrong, we won’t be responsible for that.
 
 #### Share This Article :
 
@@ -114,7 +95,7 @@ Recommended tutorial is below 👇
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+[ React]()[Mobile Application ]()
 
 Manage Consent
 
