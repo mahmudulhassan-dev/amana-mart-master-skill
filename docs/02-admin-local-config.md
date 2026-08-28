@@ -1,12 +1,18 @@
+# Admin Panel Local & Server Setup
+
+**Official Section Reference:** 6amMart Documentation
+
+---
+
 Skip to content
 
 6amMart Documentation
 
-[ Installation ](/installation)
+[ ![6amMart Installation](https://6ammart.app/wp-content/uploads/2025/08/6ammart-installation.svg)Installation ](/installation)
 
-[ Customization ](/customization)
+[ ![6amMart Customization](https://6ammart.app/wp-content/uploads/2025/08/6ammart-customization.svg)Customization ](/customization)
 
-[ Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
+[ ![6amMart Question](https://6ammart.app/wp-content/uploads/2025/08/6ammart-question.svg)Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
 
 View Categories
 
@@ -101,13 +107,19 @@ For creating the database, the following ways must be maintained-
 
 
 
+![6amMart Doc Admin Application Database SS](https://6ammart.app/wp-content/uploads/2024/06/6ammrt-doc-admin-application-database-page-ss-1024x548.webp)
+
   * Create a new database for the application
 
 
 
+![6amMart Doc Admin Application Create A New Database SS](https://6ammart.app/wp-content/uploads/2024/06/6ammrt-doc-admin-application-create-a-new-database-ss-1024x547.webp)
+
   * Create a user for the database
 
 
+
+![6amMart Doc Admin Application Create User For Database SS](https://6ammart.app/wp-content/uploads/2024/06/6ammrt-doc-admin-application-create-user-for-database-ss-1024x545.webp)
 
 **WARNING**
 
@@ -117,9 +129,13 @@ Avoid using hash (“#”) in your password
 
 
 
+![6amMart Doc Admin Application Add User To Database SS](https://6ammart.app/wp-content/uploads/2024/06/6ammrt-doc-admin-application-add-user-to-database-ss-1024x545.webp)
+
   * Give privileges to the user
 
 
+
+![6amMart Doc Admin Application Provide Previlege To User SS](https://6ammart.app/wp-content/uploads/2024/06/6ammrt-doc-admin-application-add-user-privilege-ss-1024x504.webp)
 
 ****Info****
 
@@ -134,6 +150,8 @@ From one hosting provider to the next, the interface or step differs. Speak with
 Navigate to your cPanel and locate the page for domain configuration. For 6amMart, it is essential to have two domains or subdomains. Utilise your main domain to host the customer web panel. 
 
 Additionally, create a subdomain for the admin panel. For instance, if your domain is ‘example.com’, generate a subdomain such as ‘admin.example.com’ and host the admin panel on that subdomain.
+
+![6amMart Doc Admin Application Domain Configuration SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-application-domain-configuration-ss-1024x512.webp)
 
 **TIP**
 
@@ -215,7 +233,11 @@ Run the following commands for installing required things-
 
 Afterward, access the IP address, and you’ll be directed to the default Apache configuration page.
 
+![6amMart Doc Admin Application Apache2 Ubuntu Default Page SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-application-apache2-ubuntu-default-page-ss.webp)
+
 Check if the php is working correctly or not by hitting the URL **YOUR_IP/info.php** and you can see the system’s PHP configs.
+
+![6amMart Doc Admin Application PHP Version Page SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-application-php-version-ss.webp)
 
 **Info**
 
@@ -498,14 +520,14 @@ Now you are ready to go for the installation.
 
 #### Share This Article :
 
-  * [](https://www.facebook.com/sharer/sharer.php?u=)
-  * [](https://twitter.com/intent/tweet?url=)
-  * [](https://www.linkedin.com/shareArticle?mini=true&url=)
-  * [](https://pinterest.com/pin/create/button/?url=)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/admin-application-configuration/local/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/admin-application-configuration/local/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/admin-application-configuration/local/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/admin-application-configuration/local/)
 
 
 
-[ Prerequisite]()[Installation ]()
+ PrerequisiteInstallation 
 
 Manage Consent
 

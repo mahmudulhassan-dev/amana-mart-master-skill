@@ -1,12 +1,18 @@
+# Common Issues & Solutions
+
+**Official Section Reference:** 6amMart Documentation
+
+---
+
 Skip to content
 
 6amMart Documentation
 
-[ Installation ](/installation)
+[ ![6amMart Installation](https://6ammart.app/wp-content/uploads/2025/08/6ammart-installation.svg)Installation ](/installation)
 
-[ Customization ](/customization)
+[ ![6amMart Customization](https://6ammart.app/wp-content/uploads/2025/08/6ammart-customization.svg)Customization ](/customization)
 
-[ Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
+[ ![6amMart Question](https://6ammart.app/wp-content/uploads/2025/08/6ammart-question.svg)Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
 
 View Categories
 
@@ -49,11 +55,11 @@ Don’t Show It Again
 
 GOT IT
 
-CORS Issue [–]()
+CORS Issue –
 
 If you encounter a CORS issue on your server, it might hinder the proper functioning of your application. To resolve this, watch this video:
 
-App is not running (Flutter SDK and App Version Mismatch) [–]()
+App is not running (Flutter SDK and App Version Mismatch) –
 
 In case your Flutter application is not functional, it could indicate an inconsistency between the application version and the Flutter SDK version. To resolve this, execute the following steps:
 
@@ -62,7 +68,7 @@ In case your Flutter application is not functional, it could indicate an inconsi
 
 
 
-Generate Map Key Restriction Problem [–]()
+Generate Map Key Restriction Problem –
 
 If you encounter issues with map key restrictions, follow these steps to resolve them:
 
@@ -71,17 +77,17 @@ If you encounter issues with map key restrictions, follow these steps to resolve
 
 
 
-Feature is not working (Admin Panel and Mobile App) [–]()
+Feature is not working (Admin Panel and Mobile App) –
 
 Ensure that the versions of the Admin Panel and Mobile App match to prevent errors from occurring.
 
-Receiving notifications for bookings and order placements, but not for the admin panel information. [–]()
+Receiving notifications for bookings and order placements, but not for the admin panel information. –
 
 If the user is not receiving notifications from the admin panel, yet is still receiving notifications for order placements, it is suggested not to modify the value of: 
 
 `lib/utils/ appconstants.dart -> topic`
 
-Web taking too long to load [–]()
+Web taking too long to load –
 
 The initial loading of data on the web may take longer due to the Flutter framework, but subsequent loading times will be much quicker once the data is cached.
 
@@ -93,14 +99,14 @@ For optimal performance, consider using:
 
 #### Share This Article :
 
-  * [](https://www.facebook.com/sharer/sharer.php?u=)
-  * [](https://twitter.com/intent/tweet?url=)
-  * [](https://www.linkedin.com/shareArticle?mini=true&url=)
-  * [](https://pinterest.com/pin/create/button/?url=)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/common-issues/typical-issues/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/common-issues/typical-issues/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/common-issues/typical-issues/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/common-issues/typical-issues/)
 
 
 
-[ TYPICAL ISSUES]()[TYPICAL ISSUES ]()
+ TYPICAL ISSUESTYPICAL ISSUES 
 
 Manage Consent
 

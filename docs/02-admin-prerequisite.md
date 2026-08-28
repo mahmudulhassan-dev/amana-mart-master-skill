@@ -1,4 +1,4 @@
-# Customer App Release Build & APK Guide
+# Admin Panel Server Prerequisites
 
 **Official Section Reference:** 6amMart Documentation
 
@@ -15,13 +15,6 @@ Skip to content
 [ ![6amMart Question](https://6ammart.app/wp-content/uploads/2025/08/6ammart-question.svg)Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
 
 View Categories
-
-Table of Contents
-
-  * Build for Android
-  * Build for iOS
-
-
 
 Setup Essentials
 
@@ -62,44 +55,52 @@ Don’t Show It Again
 
 GOT IT
 
-## **Build for Android** #
+**6amMart** is dependent on PHP version 8.3 or higher and MySQL version 5.7 or later. Additionally, the following server configurations and PHP extensions are necessary:
 
-Run the following command to build the APK 
-    
-    
-     flutter build apk
-    
-    
-     flutter build apk
+1\. Mod_rewrite for Apache
 
-This command will compile your Flutter code and generate the APK file. You can find the APK in the**build/app/outputs/flutter-apk** directory inside your project folder. The APK file will be named something like**app-release.apk** or **app-debug.apk**.
+2\. BCMath PHP extension
 
-By using the above command, you will get a larger merged apk with this. But you can split them with this command
-    
-    
-    flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
-    
-    
-    flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
+3\. Ctype PHP extension
 
-With this command, Flutter will generate three APKs, use one of them which is compatible with your device.
+4\. JSON extension
 
-For deploying it please follow this documentation: <https://docs.flutter.dev/deployment/android>
+5\. Mbstring extension
 
-## **Build for iOS** #
+6\. OpenSSL extension
 
-There is no general way to generate apps for iOS. Apple doesn’t allow you to install apps like this. If you want to install it on your iOS device, then you have to deploy it on TestFlight or AppStore. For deploying it, please follow this documentation: <https://docs.flutter.dev/deployment/ios>
+7\. PDO extension
+
+8\. Tokeniser extension
+
+9\. XML extension
+
+10\. Zip extension
+
+11\. Fileinfo extension
+
+12\. Gd extension
+
+13\. Sodium extension
+
+14\. Mysql PDO extension
+
+Typically, these extensions are enabled by default on most servers. However, it is advisable to verify the configuration with your hosting provider to ensure compatibility with the project.
+
+**WARNING**
+
+Please do this very carefully. We will not be responsible for your mistake.
 
 #### Share This Article :
 
-  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
-  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
-  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
-  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/admin-application-configuration/prerequisite/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/admin-application-configuration/prerequisite/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/admin-application-configuration/prerequisite/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/admin-application-configuration/prerequisite/)
 
 
 
- Customisation3rd Party Setup 
+ Vendor Website Builder Add-on Installation & ConfigurationEnvironment Configuration 
 
 Manage Consent
 

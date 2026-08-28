@@ -1,12 +1,18 @@
+# Admin Panel Step-by-Step Installation
+
+**Official Section Reference:** 6amMart Documentation
+
+---
+
 Skip to content
 
 6amMart Documentation
 
-[ Installation ](/installation)
+[ ![6amMart Installation](https://6ammart.app/wp-content/uploads/2025/08/6ammart-installation.svg)Installation ](/installation)
 
-[ Customization ](/customization)
+[ ![6amMart Customization](https://6ammart.app/wp-content/uploads/2025/08/6ammart-customization.svg)Customization ](/customization)
 
-[ Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
+[ ![6amMart Question](https://6ammart.app/wp-content/uploads/2025/08/6ammart-question.svg)Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
 
 View Categories
 
@@ -67,33 +73,51 @@ Let’s start the installation-
 
 
 
+![6amMart Doc Admin Installation Software Installation Page SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-installation-page-ss-1024x531.webp)
+
   * Step 1: All the required extensions and permissions must be enabled. Check the required information if everything is OK, then click on Process Next.
 
 
+
+![6amMart Doc Admin Installation Software Installation Step 01 SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-installation-step-1-ss-1024x531.webp)
 
   * Step 2: Provide your CodeCanyon username and purchase code and Continue.
 
 
 
+![6amMart Doc Admin Installation Software Installation Step 02 SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-installation-step-2-ss-1024x531.webp)
+
 If you find the following page, you must activate your domain. Now fill up the information and proceed
+
+![6amMart Doc Admin Installation Software Activation SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-activation-ss-1024x561.webp)
 
   * Step 3: Now you need to set the Database host, Database name, Database username & password and click Continue. If the database is in your server, then the host is localhost.
 
 
 
+![6amMart Doc Admin Installation Software Installation Step 03 SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-installation-step-3-ss-1024x531.webp)
+
   * Step 4: Now, you need to import the SQL file. For this, just press Click Here to import the database.
 
 
+
+![6amMart Doc Admin Installation Software Installation Step 04 SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-installation-step-4-ss-1024x531.webp)
 
   * If you find the following page, that means your database is not clean. Click ‘Force Import Database’ to import the database, which will clear your database first, then import the application’s database.
 
 
 
+![6amMart Doc Admin Installation Software Installation Force Import Database SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-installation-force-import-database-ss-1024x531.webp)
+
   * Step 5: Now fill up the information and click Complete Installation
 
 
 
+![6amMart Doc Admin Installation Software Installation Step 05 SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-installation-step-5-ss-1024x531.webp)
+
 Congratulations! Your software is ready to run. Click on the Admin Panel or view the Landing Page.
+
+![6amMart Doc Admin Installation Software Ready To Run SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-installation-software-redy-to-run-page-ss-1024x531.webp)
 
   * Default Admin Login URL is Your-domain/**login/admin**
 
@@ -107,14 +131,14 @@ Recommended tutorial is below 👇
 
 #### Share This Article :
 
-  * [](https://www.facebook.com/sharer/sharer.php?u=)
-  * [](https://twitter.com/intent/tweet?url=)
-  * [](https://www.linkedin.com/shareArticle?mini=true&url=)
-  * [](https://pinterest.com/pin/create/button/?url=)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/admin-application-configuration/installation/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/admin-application-configuration/installation/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/admin-application-configuration/installation/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/admin-application-configuration/installation/)
 
 
 
-[ Environment Configuration]()[Mandatory Setup ]()
+ Environment ConfigurationMandatory Setup 
 
 Manage Consent
 

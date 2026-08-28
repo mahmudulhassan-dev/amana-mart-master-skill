@@ -1,12 +1,18 @@
+# Admin Panel 3rd Party Integrations
+
+**Official Section Reference:** 6amMart Documentation
+
+---
+
 Skip to content
 
 6amMart Documentation
 
-[ Installation ](/installation)
+[ ![6amMart Installation](https://6ammart.app/wp-content/uploads/2025/08/6ammart-installation.svg)Installation ](/installation)
 
-[ Customization ](/customization)
+[ ![6amMart Customization](https://6ammart.app/wp-content/uploads/2025/08/6ammart-customization.svg)Customization ](/customization)
 
-[ Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
+[ ![6amMart Question](https://6ammart.app/wp-content/uploads/2025/08/6ammart-question.svg)Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
 
 View Categories
 
@@ -165,16 +171,18 @@ Activate:
 
 After configuring all the settings above, turn on the Websocket and update the Websocket URL and Websocket Port.
 
+![6amMart Doc Admin 3rd-Party System Configuration SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-admin-3rd-party-system-configuration-ss-1024x508.webp)
+
 #### Share This Article :
 
-  * [](https://www.facebook.com/sharer/sharer.php?u=)
-  * [](https://twitter.com/intent/tweet?url=)
-  * [](https://www.linkedin.com/shareArticle?mini=true&url=)
-  * [](https://pinterest.com/pin/create/button/?url=)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/admin-application-configuration/3rd-party-setup/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/admin-application-configuration/3rd-party-setup/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/admin-application-configuration/3rd-party-setup/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/admin-application-configuration/3rd-party-setup/)
 
 
 
-[ Customizations]()[Rental Module addon ]()
+ CustomizationsRental Module addon 
 
 Manage Consent
 

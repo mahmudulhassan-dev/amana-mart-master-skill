@@ -1,12 +1,18 @@
+# Deliveryman App Location & Tracking Setup
+
+**Official Section Reference:** 6amMart Documentation
+
+---
+
 Skip to content
 
 6amMart Documentation
 
-[ Installation ](/installation)
+[ ![6amMart Installation](https://6ammart.app/wp-content/uploads/2025/08/6ammart-installation.svg)Installation ](/installation)
 
-[ Customization ](/customization)
+[ ![6amMart Customization](https://6ammart.app/wp-content/uploads/2025/08/6ammart-customization.svg)Customization ](/customization)
 
-[ Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
+[ ![6amMart Question](https://6ammart.app/wp-content/uploads/2025/08/6ammart-question.svg)Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
 
 View Categories
 
@@ -205,6 +211,8 @@ Do not create multiple projects on your firebase console, if you have multiple a
 
 
 
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXewgixNxnMDdryDjKaQENVKoLHV02ye12NypA6naxHawja3DfoV1AQ-s22tQnLziwzkB56NoxiBj1986l2AwT-PBy58mlVT9OLQ-8CbjzTSudm95OQl3ngpEabaYn6Ed7D9m4RjUQ?key=KTRRL7X8J-b-JWpd--JKGQ)
+
 **IOS Setup :**
 
   * Again add an app under the same project and download **GoogleService-Info.plist** and paste it under **< project>/iOS/ folder**. Also, follow this documentation for full setup for IOS: <https://firebase.flutter.dev/docs/messaging/apple-integration>
@@ -216,7 +224,7 @@ Paste the Firebase **Service account** key in the admin panel Firebase Notificat
 **Admin Setup :**
 
   * Again add and **web app** under the same project, and there you will find **firebaseConfigData** for seting up **admin firebase configuration** data.
-  * For service file setup, follow : :[**)
+  * For service file setup, follow : :**https://6ammart.app/documentation/admin-application-configuration/mandatory-setups/#firebase-configuration**
 
 
 
@@ -224,7 +232,7 @@ After your setup, please restart your IDE and uninstall your previously installe
 
 **WARNING**
 
-Don’t forget to setup the admin firebase configuration <
+Don’t forget to setup the admin firebase configuration <https://6ammart.app/documentation/admin-application-configuration/mandatory-setups/#firebase-configuration>
 
 ## **Add Google Map API Key**[**​**](https://docs.6amtech.com/docs-demandium/mobile-apps/mandatory-setup#add-google-map-api-key) #
 
@@ -265,14 +273,14 @@ For iOS: open <project>/iOS/Runner/AppDelegate.swift and place the value of GMSS
 
 #### Share This Article :
 
-  * [](https://www.facebook.com/sharer/sharer.php?u=)
-  * [](https://twitter.com/intent/tweet?url=)
-  * [](https://www.linkedin.com/shareArticle?mini=true&url=)
-  * [](https://pinterest.com/pin/create/button/?url=)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/deliveryman-application-configuration/deliveryman-app-mandatory-setup/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/deliveryman-application-configuration/deliveryman-app-mandatory-setup/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/deliveryman-application-configuration/deliveryman-app-mandatory-setup/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/deliveryman-application-configuration/deliveryman-app-mandatory-setup/)
 
 
 
-[ Environment Setup]()[Customization ]()
+ Environment SetupCustomization 
 
 Manage Consent
 

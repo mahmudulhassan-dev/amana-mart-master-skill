@@ -1,4 +1,4 @@
-# Customer App Release Build & APK Guide
+# Admin Panel Branding & Customization
 
 **Official Section Reference:** 6amMart Documentation
 
@@ -18,8 +18,8 @@ View Categories
 
 Table of Contents
 
-  * Build for Android
-  * Build for iOS
+  * Landing Page Customization
+  * Translate admin panel 
 
 
 
@@ -62,44 +62,34 @@ Don’t Show It Again
 
 GOT IT
 
-## **Build for Android** #
+## **Landing Page Customization** #
 
-Run the following command to build the APK 
-    
-    
-     flutter build apk
-    
-    
-     flutter build apk
+The default landing page serves as the initial point of entry for visitors. Through the admin panel, users have the ability to customize this landing page to better suit their needs. One customization option involves specifying a redirection link. This enables users to direct visitors away from the default landing page to another designated webpage or destination, effectively altering the path of navigation. Alternatively, users can upload custom code scripts, which then dictate the rendering and functionality of the landing page. This allows for a more comprehensive transformation of the landing page, encompassing visual design elements, interactive features, and other bespoke functionalities.
 
-This command will compile your Flutter code and generate the APK file. You can find the APK in the**build/app/outputs/flutter-apk** directory inside your project folder. The APK file will be named something like**app-release.apk** or **app-debug.apk**.
+## **Translate admin panel****** #
 
-By using the above command, you will get a larger merged apk with this. But you can split them with this command
-    
-    
-    flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
-    
-    
-    flutter build apk --target-platform android-arm,android-arm64,android-x64 --split-per-abi
+For translating your admin and vendor panel go to this file: resources/lang/en/messages.php and change all the value of each key( ‘key’=>’:variable value’) . Please don’t change any key or variable. A variable is word which starts with a “:”, it can be placed after the value or inside a value like ‘config\your\account’=>’Config your :method account’, here :method is a variable and config\your\account is a key. You can change the position of variable inside a value but you can’t remove it.
 
-With this command, Flutter will generate three APKs, use one of them which is compatible with your device.
+**INFO**
 
-For deploying it please follow this documentation: <https://docs.flutter.dev/deployment/android>
+Please note: “:” after a word is not a variable like: ‘(Ex: Test Label)’ => ‘(Ex: Test Label)’ here “Ex:” not a variable 
 
-## **Build for iOS** #
+**Form the Admin panel**
 
-There is no general way to generate apps for iOS. Apple doesn’t allow you to install apps like this. If you want to install it on your iOS device, then you have to deploy it on TestFlight or AppStore. For deploying it, please follow this documentation: <https://docs.flutter.dev/deployment/ios>
+* * *
+
+**Form the Message.php file**
 
 #### Share This Article :
 
-  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
-  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
-  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
-  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/user-application-configuration/app-build-release/)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/admin-application-configuration/customizations/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/admin-application-configuration/customizations/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/admin-application-configuration/customizations/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/admin-application-configuration/customizations/)
 
 
 
- Customisation3rd Party Setup 
+ Mandatory Setup3rd Party Setup 
 
 Manage Consent
 

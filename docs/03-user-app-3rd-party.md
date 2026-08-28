@@ -1,12 +1,18 @@
+# Customer App Firebase & Google Maps
+
+**Official Section Reference:** 6amMart Documentation
+
+---
+
 Skip to content
 
 6amMart Documentation
 
-[ Installation ](/installation)
+[ ![6amMart Installation](https://6ammart.app/wp-content/uploads/2025/08/6ammart-installation.svg)Installation ](/installation)
 
-[ Customization ](/customization)
+[ ![6amMart Customization](https://6ammart.app/wp-content/uploads/2025/08/6ammart-customization.svg)Customization ](/customization)
 
-[ Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
+[ ![6amMart Question](https://6ammart.app/wp-content/uploads/2025/08/6ammart-question.svg)Any Question? ](https://wa.me/8801810494911?text=Hi%2C%20I%20want%20to%20chat%20about%206amMart.)
 
 View Categories
 
@@ -233,6 +239,8 @@ To configure Apple Login follow the steps mentioned below –
 
 
 
+![6amMart Doc Mobile App 3rd-Party Apple Login SS](https://6ammart.app/wp-content/uploads/2024/06/6ammart-doc-mobile-app-3rd-party-apple-login-ss.webp)
+
 Step 2: Create or Use App ID
 
 **INFO**
@@ -279,7 +287,7 @@ By following these steps, you can successfully set up and implement Apple Sign-I
 
 ## **Firebase OTP Login** #
 
-For configuring OTP in the Firebase, you must create a Firebase project first. If you haven’t created any project for your application yet, please follow the instructions given [here]().
+For configuring OTP in the Firebase, you must create a Firebase project first. If you haven’t created any project for your application yet, please follow the instructions given here.
 
 Now go the [Firebase console](https://console.firebase.google.com/) and follow the instructions below-
 
@@ -354,14 +362,14 @@ Firebase billing must be enabled for using this feature. Need to use Blaze Plane
 
 #### Share This Article :
 
-  * [](https://www.facebook.com/sharer/sharer.php?u=)
-  * [](https://twitter.com/intent/tweet?url=)
-  * [](https://www.linkedin.com/shareArticle?mini=true&url=)
-  * [](https://pinterest.com/pin/create/button/?url=)
+  * [![Facebook](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/facebook.svg?v=4.8.1)](https://www.facebook.com/sharer/sharer.php?u=https://6ammart.app/documentation/user-application-configuration/3rd-party-setup-2/)
+  * [![X](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/twitter.svg?v=4.8.1)](https://twitter.com/intent/tweet?url=https://6ammart.app/documentation/user-application-configuration/3rd-party-setup-2/)
+  * [![LinkedIn](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/linkedin.svg?v=4.8.1)](https://www.linkedin.com/shareArticle?mini=true&url=https://6ammart.app/documentation/user-application-configuration/3rd-party-setup-2/)
+  * [![Pinterest](https://6ammart.app/wp-content/plugins/betterdocs/assets/static/images/social/pinterest.svg?v=4.8.1)](https://pinterest.com/pin/create/button/?url=https://6ammart.app/documentation/user-application-configuration/3rd-party-setup-2/)
 
 
 
-[ App Build & Release]()[System Update ]()
+ App Build & ReleaseSystem Update 
 
 Manage Consent
 
